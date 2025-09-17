@@ -47,7 +47,7 @@ def main():
         
         for item in drawable:
             item.draw(screen)
-            
+        
         pygame.display.flip()
         dt = clock.tick(60) / 1000
 
